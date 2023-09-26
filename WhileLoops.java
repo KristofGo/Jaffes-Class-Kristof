@@ -1,37 +1,22 @@
 
 public class WhileLoops
 {
-    int i = 0;
-    while (i < 15); {
-        System.out.println("i is" + i + "but is less than 15");
-        i = i + 1;
-    int k = 6;
-    while (k > 5)  {
-        System.out.println("k is" + k + "but is greater than 5");
-        k++;
+    public static void main(String[] args) {
+        int i = 0;
+        while (i < 15) {
+            System.out.println("i is" + i + "but is less than 15");
+            i = i + 1;
+        }
+        int k = 6;
+        while (k > 5) {
+            System.out.println("k is" + k + "but is greater than 5");
+            k++;
+        }
         int a = 0;
-    }
-    }
-    private int x;
-
-    /**
-     * Constructor for objects of class WhileLoops
-     */
-    public WhileLoops()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        
-        return x + y;
+        int b = 0;
+        while (a < 10 && b <= 20) {
+            System.out.println("a is" + a + "but is less than 10");
+            System.out.println("b is" + b + "but is less than or equal to 20");
+        }
     }
 }
